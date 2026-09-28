@@ -1,0 +1,27 @@
+import assert from "assert";
+import { ACCEPT_EXT, acceptFile, extOf, MAX_BYTES, DOC_MAX_BYTES, acceptDocFile } from "./limits.ts";
+import { IMG_MAX, JOBS, outName } from "./docs.ts";
+import { mdToHtml, stripHtml, textToMd } from "./md.ts";
+
+assert.equal(extOf("Talk.MP3"), ".mp3");
+assert.equal(acceptFile("a.mp3", 1), null);
+assert.equal(acceptFile("a.WAV", 100), null);
+assert.ok(acceptFile("a.exe", 1));
+assert.ok(acceptFile("a.mp3", MAX_BYTES + 1));
+assert.ok(acceptFile("a.mp3", 0));
+assert.equal(ACCEPT_EXT.length, 11);
+assert.equal(DOC_MAX_BYTES, 50 * 1024 * 1024);
+assert.equal(IMG_MAX, 20);
+assert.ok(JOBS.length > 11);
+assert.equal(outName("test.docx", "pdf"), "test.pdf");
+assert.equal(outName("scan.png", "pdf"), "scan.pdf");
+assert.ok(JOBS.some((j) => j.id === "pdf-word"));
+assert.ok(JOBS.some((j) => j.id === "pdf-merge"));
+assert.ok(JOBS.some((j) => j.id === "pdf-rotate"));
+assert.ok(JOBS.some((j) => j.id === "img-compress"));
+assert.equal(acceptDocFile("a.pdf", 100), null);
+assert.ok(acceptDocFile("a.exe", 100));
+assert.ok(mdToHtml("# Hi\n\nTest").includes("<h1>Hi</h1>"));
+assert.ok(stripHtml("<p>Test</p>").includes("Test"));
+assert.ok(textToMd("Line 1\n\nLine 2").includes("Line 1"));
+console.log("ok");

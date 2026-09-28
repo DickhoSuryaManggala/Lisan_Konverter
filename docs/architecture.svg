@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 640" fill="none">
+  <rect width="1120" height="640" rx="24" fill="#121410"/>
+  <rect x="1" y="1" width="1118" height="638" rx="23" stroke="#eceee8" stroke-opacity="0.1"/>
+  <text x="48" y="52" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="600" letter-spacing="0.04em">LISAN — ALUR SISTEM</text>
+  <text x="48" y="78" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">Browser memproses dokumen. Server hanya menangani transkrip audio.</text>
+
+  <rect x="48" y="112" width="1024" height="200" rx="16" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.08"/>
+  <text x="72" y="144" fill="#3d6b4f" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em">BROWSER · VITE :5173</text>
+
+  <rect x="72" y="168" width="292" height="108" rx="12" fill="#121410" stroke="#eceee8" stroke-opacity="0.12"/>
+  <text x="92" y="200" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600">Studio live</text>
+  <text x="92" y="224" fill="#eceee8" fill-opacity="0.55" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Web Speech API</text>
+  <text x="92" y="244" fill="#eceee8" fill-opacity="0.4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Chrome / Edge · mikrofon</text>
+
+  <rect x="384" y="168" width="292" height="108" rx="12" fill="#121410" stroke="#eceee8" stroke-opacity="0.12"/>
+  <text x="404" y="200" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600">Studio unggah</text>
+  <text x="404" y="224" fill="#eceee8" fill-opacity="0.55" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">POST /api/transcribe</text>
+  <text x="404" y="244" fill="#eceee8" fill-opacity="0.4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">MP3 · WAV · M4A · sampai 2 GB</text>
+
+  <rect x="696" y="168" width="348" height="108" rx="12" fill="#121410" stroke="#3d6b4f" stroke-opacity="0.55"/>
+  <text x="716" y="200" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600">Alat konversi</text>
+  <text x="716" y="224" fill="#eceee8" fill-opacity="0.55" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">pdf-lib · jsPDF · mammoth · pdf.js</text>
+  <text x="716" y="244" fill="#eceee8" fill-opacity="0.4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Tanpa server · maks 50 MB</text>
+
+  <path d="M560 312v28" stroke="#3d6b4f" stroke-width="2"/>
+  <polygon points="560,348 554,336 566,336" fill="#3d6b4f"/>
+
+  <rect x="48" y="360" width="1024" height="232" rx="16" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.08"/>
+  <text x="72" y="392" fill="#3d6b4f" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="0.12em">NODE API · :8787</text>
+
+  <rect x="72" y="416" width="220" height="140" rx="12" fill="#121410" stroke="#eceee8" stroke-opacity="0.12"/>
+  <text x="92" y="452" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600">busboy</text>
+  <text x="92" y="476" fill="#eceee8" fill-opacity="0.5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Terima unggahan</text>
+  <text x="92" y="496" fill="#eceee8" fill-opacity="0.4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Satu berkas · 2 GB</text>
+
+  <rect x="316" y="416" width="220" height="140" rx="12" fill="#121410" stroke="#eceee8" stroke-opacity="0.12"/>
+  <text x="336" y="452" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600">ffmpeg</text>
+  <text x="336" y="476" fill="#eceee8" fill-opacity="0.5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">16 kHz mono WAV</text>
+  <text x="336" y="496" fill="#eceee8" fill-opacity="0.4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Potong 30 detik</text>
+
+  <rect x="560" y="416" width="220" height="140" rx="12" fill="#121410" stroke="#eceee8" stroke-opacity="0.12"/>
+  <text x="580" y="452" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600">Whisper</text>
+  <text x="580" y="476" fill="#eceee8" fill-opacity="0.5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Xenova/whisper-base</text>
+  <text x="580" y="496" fill="#eceee8" fill-opacity="0.4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">ID / EN · cache lokal</text>
+
+  <rect x="804" y="416" width="240" height="140" rx="12" fill="#121410" stroke="#eceee8" stroke-opacity="0.12"/>
+  <text x="824" y="452" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600">NDJSON stream</text>
+  <text x="824" y="476" fill="#eceee8" fill-opacity="0.5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">chunk → done</text>
+  <text x="824" y="496" fill="#eceee8" fill-opacity="0.4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Unggahan dihapus</text>
+</svg>

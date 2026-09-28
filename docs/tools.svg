@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 420" fill="none">
+  <rect width="1120" height="420" rx="24" fill="#121410"/>
+  <rect x="1" y="1" width="1118" height="418" rx="23" stroke="#eceee8" stroke-opacity="0.1"/>
+  <text x="48" y="48" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" letter-spacing="0.04em">ALAT SIAP PAKAI</text>
+  <text x="48" y="72" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">Diproses di browser. Maks 50 MB per berkas.</text>
+
+  <rect x="48" y="100" width="248" height="88" rx="14" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.1"/>
+  <text x="68" y="138" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Word → PDF</text>
+  <text x="68" y="162" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">DOCX · DOC</text>
+
+  <rect x="312" y="100" width="248" height="88" rx="14" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.1"/>
+  <text x="332" y="138" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">PDF → Word / TXT / MD</text>
+  <text x="332" y="162" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">PDF berteks, bukan scan</text>
+
+  <rect x="576" y="100" width="248" height="88" rx="14" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.1"/>
+  <text x="596" y="138" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Markdown ↔</text>
+  <text x="596" y="162" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">MD · PDF · Word</text>
+
+  <rect x="840" y="100" width="232" height="88" rx="14" fill="#3d6b4f"/>
+  <text x="860" y="138" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Kompres PDF</text>
+  <text x="860" y="162" fill="#eceee8" fill-opacity="0.85" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Ringan · sedang · kuat</text>
+
+  <rect x="48" y="204" width="248" height="88" rx="14" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.1"/>
+  <text x="68" y="242" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Gambar → PDF</text>
+  <text x="68" y="266" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">1–20 foto jadi satu PDF</text>
+
+  <rect x="312" y="204" width="248" height="88" rx="14" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.1"/>
+  <text x="332" y="242" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Kompres gambar</text>
+  <text x="332" y="266" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">JPG · PNG · WEBP</text>
+
+  <rect x="576" y="204" width="248" height="88" rx="14" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.1"/>
+  <text x="596" y="242" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">PDF → JPG</text>
+  <text x="596" y="266" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Halaman pertama</text>
+
+  <rect x="840" y="204" width="232" height="88" rx="14" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.1"/>
+  <text x="860" y="242" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Word → MD / TXT</text>
+  <text x="860" y="266" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">DOCX lewat mammoth</text>
+
+  <rect x="48" y="308" width="1024" height="72" rx="14" fill="#1a1c17" stroke="#eceee8" stroke-opacity="0.08"/>
+  <text x="68" y="340" fill="#eceee8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600">Belum siap</text>
+  <text x="68" y="362" fill="#eceee8" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Merge, split, rotate, watermark, OCR, tanda tangan, Office ke PDF, proteksi, PDF/A, dan sejenisnya — kartu ada, konversi belum.</text>
+</svg>
